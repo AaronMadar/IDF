@@ -1,0 +1,8 @@
+C:\Users\yaelg\source\repos\ProjectClassIDF\ProjectClassIDF\bin\Debug\ProjectClassIDF.exe.config
+C:\Users\yaelg\source\repos\ProjectClassIDF\ProjectClassIDF\bin\Debug\ProjectClassIDF.exe
+C:\Users\yaelg\source\repos\ProjectClassIDF\ProjectClassIDF\bin\Debug\ProjectClassIDF.pdb
+C:\Users\yaelg\source\repos\ProjectClassIDF\ProjectClassIDF\obj\Debug\ProjectClassIDF.csproj.AssemblyReference.cache
+C:\Users\yaelg\source\repos\ProjectClassIDF\ProjectClassIDF\obj\Debug\ProjectClassIDF.csproj.CoreCompileInputs.cache
+C:\Users\yaelg\source\repos\ProjectClassIDF\ProjectClassIDF\obj\Debug\ProjectClassIDF.exe
+C:\Users\yaelg\source\repos\ProjectClassIDF\ProjectClassIDF\obj\Debug\ProjectClassIDF.pdb
+C:\Users\yaelg\source\repos\ProjectClassIDF\ProjectClassIDF\obj\Debug\ProjectClassIDF.exe.config
