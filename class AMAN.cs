@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.Generic; // ← NÉCESSAIRE POUR Dictionary
 
 namespace ProjectClassIDF
 {
