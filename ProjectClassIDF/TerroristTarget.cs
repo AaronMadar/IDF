@@ -40,6 +40,7 @@ namespace ProjectClassIDF
             }
             Console.WriteLine(DangersTerrorist);
             Console.WriteLine($"score:{maxpoints}");
+            
         }
         
     }

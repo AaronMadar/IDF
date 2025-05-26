@@ -16,6 +16,7 @@ namespace ProjectClassIDF
 
         public Hamas()
         {
+            Terrorists = new List<Terrorist>();
             Commander = "Yehia Sinwar ";
             DateFormation = new DateTime(1987, 12, 10);
 
@@ -29,10 +30,12 @@ namespace ProjectClassIDF
         {
             for (int i = 0; i < Terrorists.Count; i++)
             {
-                Console.WriteLine("terrorist name: " + Terrorists[i].GetName());
-                Console.WriteLine("terrorist rating: " + Terrorists[i].GetSRating());
-                Console.WriteLine("terrorist status: " + Terrorists[i].Getstatus());
-                Console.WriteLine("First terrorist weapon: " + Terrorists[i].GetWeapon());
+                Console.WriteLine("Terrorist name: " + Terrorists[i].Name);
+                Console.WriteLine("Terrorist rating: " + Terrorists[i].Rating);
+                Console.WriteLine("Terrorist status: " + Terrorists[i].Status);
+                Console.WriteLine("Terrorist weapon: " + Terrorists[i].Weapon);
+                Console.WriteLine("Last location: " + Terrorists[i].LastLocation);
+                Console.WriteLine();
 
             }
 

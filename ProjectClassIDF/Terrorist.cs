@@ -9,47 +9,21 @@ namespace ProjectClassIDF
 {
     public class Terrorist
     {
-        public string Name;
-        public int Rating;
-       public string Status;
-        public string Weapon;
+        public string Name { get; set; }
+        public int Rating { get; set; }
+        public string Status { get; set; }
+        public string Weapon { get; set; }
+        public string LastLocation { get; set; }
 
-
-
-
-
-        public void SetName(string name)
+        
+        public Terrorist(string name, int rating, string status, string weapon, string lastLocation)
         {
             Name = name;
-        }
-        public string GetName()
-        {
-            return Name;
-        }
-        public void SetRating(int rating)
-        {
             Rating = rating;
-        }
-        public int GetSRating()
-        {
-            return Rating;
-        }
-        public void SetStatus(string status)
-        {
             Status = status;
-        }
-        public string Getstatus()
-        {
-            return Status;
-        }
-        public void SetWeapon(String weapon)
-        {
             Weapon = weapon;
+            LastLocation = lastLocation;
         }
-        public string GetWeapon()
-        {
-            return Weapon;
-        }
-       
     }
+
 }
