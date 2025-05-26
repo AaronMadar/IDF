@@ -15,18 +15,18 @@ namespace ProjectClassIDF
             t1.SetRating(5);
             t1.SetStatus("hai");
             t1.SetWeapon("M16");
-            t1.SetAmountreports(4);
+            
 
             Terrorist t2 = new Terrorist();
             t2.SetName("Amir");
             t2.SetRating(5);
             t2.SetStatus("hai");
             t2.SetWeapon("M16");
-            t2.SetAmountreports(4);
+            
 
 
 
-            Hamas hamas = new Hamas(t1);
+            Hamas hamas = new Hamas();
             hamas.Terrorists = new List<Terrorist>(); 
             hamas.addTerrorist(t1);
             hamas.addTerrorist(t2);

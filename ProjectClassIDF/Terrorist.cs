@@ -9,11 +9,11 @@ namespace ProjectClassIDF
 {
     public class Terrorist
     {
-        private string Name;
-        private int Rating;
-        private string Status;
-        private string Weapon;
-        private int Amountreports;
+        public string Name;
+        public int Rating;
+       public string Status;
+        public string Weapon;
+
 
 
 
@@ -50,15 +50,6 @@ namespace ProjectClassIDF
         {
             return Weapon;
         }
-        public void SetAmountreports(int amountreports)
-        {
-            Amountreports = amountreports;
-        }
-        public int GetAmountreports()
-        {
-            return Amountreports;
-        }
+       
     }
-
-
 }
